@@ -69,10 +69,10 @@ Android: Copy `Wallpaper.java` to `platforms/android/src/ca/purplemad/wallpaper`
 
 4\. Set below permissions in AndroidManifest.xml file.
 
-<uses-permission android:name="android.permission.SET_WALLPAPER" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+1. SET_WALLPAPER
+2. WRITE_EXTERNAL_STORAGE
+3. INTERNET
+4. ACCESS_NETWORK_STATE
 
 Android: Copy `Wallpaper.java` to `platforms/android/src/ca/purplemad/wallpaper` (create the folders)
 
