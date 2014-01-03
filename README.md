@@ -1,7 +1,7 @@
 Wallpaper-PhoneGap-Plugin
 =========================
 
-for Android, by [purpleMAD](http://www.purplemad.ca/)
+for Android, by [PurpleMAD](http://www.purplemad.ca/)
 
 1. [Description](https://github.com/PurpleMADcanada/Wallpaper-PhoneGap-Plugin.git#1-description)
 2. [Installation](https://github.com/PurpleMADcanada/Wallpaper-PhoneGap-Plugin.git#2-installation)
