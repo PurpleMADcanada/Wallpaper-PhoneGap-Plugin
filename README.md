@@ -67,6 +67,15 @@ $ cordova build
 
 Android: Copy `Wallpaper.java` to `platforms/android/src/ca/purplemad/wallpaper` (create the folders)
 
+4\. Set below permissions in AndroidManifest.xml file.
+
+<uses-permission android:name="android.permission.SET_WALLPAPER" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+Android: Copy `Wallpaper.java` to `platforms/android/src/ca/purplemad/wallpaper` (create the folders)
+
 ### PhoneGap Build
 
 Using Wallpaper with PhoneGap Build requires these simple steps:
