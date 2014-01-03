@@ -18,15 +18,15 @@ This plugin allows a user to save an image residing in the application folder or
 * Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman).
 
 ### Android specifics
-* There are two functions as below:
-a. wallpaper.setImage (for saving image and setting it as wallpaper) 
+* There are two functions as below:<br/>
+a. wallpaper.setImage (for saving image and setting it as wallpaper)<br/>
 b. wallpaper.saveImage (just for saving image) 
 
-User need to pass parameters as (imagePath, imageTitle, folderName, success, error) where 
-	1. imagePath = local/remote image path (in case of remote URL protocol can only be http/https)
-	2. imageTitle = image title you wanna provide
-	3. folderName = folder name you want to create on internal storage
-	4. success (function to be called on success) 
+User need to pass parameters as (imagePath, imageTitle, folderName, success, error) where<br/> 
+	1. imagePath = local/remote image path (in case of remote URL protocol can only be http/https)<br/>
+	2. imageTitle = image title you wanna provide<br/>
+	3. folderName = folder name you want to create on internal storage<br/>
+	4. success (function to be called on success)<br/>
 	5. error (function to be called on error)
 
 * Tested on Android >= 4.
