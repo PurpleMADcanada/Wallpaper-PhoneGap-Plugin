@@ -74,8 +74,6 @@ Android: Copy `Wallpaper.java` to `platforms/android/src/ca/purplemad/wallpaper`
 3. INTERNET
 4. ACCESS_NETWORK_STATE
 
-Android: Copy `Wallpaper.java` to `platforms/android/src/ca/purplemad/wallpaper` (create the folders)
-
 ### PhoneGap Build
 
 Using Wallpaper with PhoneGap Build requires these simple steps:
