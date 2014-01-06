@@ -6,7 +6,7 @@
     version="0.1.0">
     <name>WallpaperPlugin</name>
     <description>Plugin to set image as wallpaper as well as save image in storage or only store image in storage.</description>
-    <license>Apache 2.0 License</license>
+    <license>Apache 2.0</license>
     <keywords>phonegap,wallpaper</keywords>
     <engines>
         <engine name="cordova" version=">=3.0.0" />
