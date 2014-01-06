@@ -5,7 +5,7 @@
     id="ca.purplemad.wallpaper"
     version="0.1.0">
     <name>WallpaperPlugin</name>
-    <description>Plugin to set image as wallpaper as well as save image in storage or only store image in storage.</description>
+    <description>This plugin allows a user to save an image residing in the application folder or from a remote URL into the internal storage of the device. It also allows to set the image as a wallpaper which includes saving the image into the storage of the device.</description>
     <license>Apache 2.0</license>
     <keywords>phonegap,wallpaper</keywords>
     <engines>
