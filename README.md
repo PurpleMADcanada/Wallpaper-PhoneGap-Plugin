@@ -85,7 +85,7 @@ Using Wallpaper with PhoneGap Build requires these simple steps:
 ```
 or to use this exact version:
 ```xml
-<gap:plugin name="ca.purplemad.wallpaper" version="0.1.0" />
+<gap:plugin name="ca.purplemad.wallpaper" version="0.2.0" />
 ```
 
 2\. Reference the JavaScript code in your `index.html`:
