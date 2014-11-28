@@ -21,9 +21,9 @@ This plugin allows a user to save an image residing in the application folder or
 ### Android specifics
 * There are two functions as below:<br/>
 a. wallpaper.setImage (for saving image and setting it as wallpaper)<br/>
-b. wallpaper.saveImage (just for saving image) 
+b. wallpaper.saveImage (just for saving image)
 
-User need to pass parameters as (imagePath, imageTitle, folderName, success, error) where<br/> 
+User need to pass parameters as (imagePath, imageTitle, folderName, success, error) where<br/>
 	1. imagePath = local/remote image path (in case of remote URL protocol can only be http/https)<br/>
 	2. imageTitle = image title you wanna provide<br/>
 	3. folderName = folder name you want to create on internal storage<br/>
@@ -31,6 +31,13 @@ User need to pass parameters as (imagePath, imageTitle, folderName, success, err
 	5. error (function to be called on error)
 
 * Tested on Android >= 4.
+
+### FirefoxOS
+FirefoxOS supports a subset of the Android features, namely the ability to set the wallpaper, but not saving the image locally. Calling wallpaper.setImage will bring up FirefoxOS's "Share" prompt, where the user can then select to "share to wallpaper".
+
+Usage is the same as with Android above, except imageTitle and folderName are ignored.
+
+Note: You will not be able to use images from a remote URL unless the server has the correct CORS headers set. See the MDN article on [CORS Enabled Images](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image) for information on how you can do this.
 
 ## 2. Installation
 
@@ -102,14 +109,14 @@ Basic operations, you'll want to copy-paste this for testing purposes:
 ```javascript
   // prep some variables
   var imagePath = "www/img/christmas.jpeg";				// Mention the complete path to your image. If it contains under multiple folder then mention the path from level "www" to the level your image contains with its name including its extension.
-  var imageTitle = "christmas";						// Set title of your choice.
-  var folderName = "PluginImages";					// Set folder Name of your choice. 
+  var imageTitle = "christmas";						// Set title of your choice - this can be left empty if only using FirefoxOS
+  var folderName = "PluginImages";					// Set folder Name of your choice - this can be left empty if only using FirefoxOS
   var success = function() { alert("Success"); };			// Do something on success return.
   var error = function(message) { alert("Oopsie! " + message); };	// Do something on error return.
 
   // For setting wallpaper & saving image
   wallpaper.setImage(imagePath, imageTitle, folderName, success, error);
-  
+
   // For saving image
-  wallpaper.saveImage(imagePath, imageTitle, folderName, success, error);	
+  wallpaper.saveImage(imagePath, imageTitle, folderName, success, error);
 ```

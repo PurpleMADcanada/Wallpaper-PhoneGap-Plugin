@@ -11,7 +11,6 @@ var wallpaper =  {
                 "folderName": folderName
             }]
         );
-            
     },
     saveImage: function(imagePath, imageTitle, folderName, successCallback, errorCallback) {
         cordova.exec(
@@ -25,7 +24,6 @@ var wallpaper =  {
                 "folderName": folderName
             }]
         );
-            
     }
 };
 module.exports = wallpaper;
