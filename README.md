@@ -16,7 +16,7 @@ This plugin allows a user to save an image residing in the application folder or
 
 * Works with PhoneGap >= 3.0.
 * Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman).
-* [Officially supported by PhoneGap Build](https://build.phonegap.com/plugins/386).
+* [Officially supported by PhoneGap Build](https://build.phonegap.com/plugins/392).
 
 ### Android specifics
 * There are two functions as below:<br/>
